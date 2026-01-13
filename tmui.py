@@ -7,7 +7,7 @@ import subprocess
 import sys
 from typing import List
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 # Add vendor directory to path for bundled picotui
 _vendor_dir = os.path.join(os.path.dirname(os.path.realpath(__file__)), "vendor")
